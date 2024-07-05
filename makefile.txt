@@ -1,0 +1,18 @@
+all : prog
+
+prog : CVV_Ascii.o
+	gcc -o prog CVV_Ascii.o
+	gcc -o prog CVV_graph.o
+
+CVV_Ascii.o : CVV_Ascii.c 
+	gcc -o CVV_Ascii.o -c CVV_Ascii.c
+
+CVV_graph.o : CVV_graph.c 
+	gcc -o CVV_graph.o -c CVV_graph.c
+
+
+clean : 
+	rm -rf *.o
+
+mrproper : clean	
+	rm -rf prog
