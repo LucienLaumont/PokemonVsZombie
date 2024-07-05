@@ -1,7 +1,7 @@
 # 🕹️ Pokemon vs TeamRocket
 
 ## 🌟 Overview
-This project, developed during my first year of learning C in Prépa, is a tower defense game with a "Pokemon vs TeamRocket" theme. The objective of the game is similar to other tower defense games: you must place Pokemon on different lines to defend against waves of Team Rocket enemies advancing towards the left side of the screen. Each Pokemon can attack and eliminate enemies on its line. Make sure to manage your credits wisely to always have a response to new waves!
+This project, developed during my first year of learning C in CPES, is a tower defense game with a "Pokemon vs TeamRocket" theme. The objective of the game is similar to other tower defense games: you must place Pokemon on different lines to defend against waves of Team Rocket enemies advancing towards the left side of the screen. Each Pokemon can attack and eliminate enemies on its line. Make sure to manage your credits wisely to always have a response to new waves!
 
 ## 📜 Game Objective
 The goal is to generate defenses (placed at the beginning of the game by the player) using Pokemon as turrets to destroy the advancing Team Rocket enemies. The game ends when either all the enemies are defeated or they reach the left side of the screen. Different waves of enemies can be generated depending on the desired difficulty level.
